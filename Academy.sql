@@ -74,6 +74,8 @@ ALTER TABLE "videos_course" ADD FOREIGN KEY ("videos_id") REFERENCES "videos" ("
 
 ALTER TABLE "videos_course" ADD FOREIGN KEY ("courses_id") REFERENCES "courses" ("id");
 
+/** SCRIPTS */
+
 
 /** First insert role for user dependences */
 INSERT INTO public.roles(
